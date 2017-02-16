@@ -33,7 +33,6 @@ PRODUCT_PACKAGES += \
     DeskClock \
     DocumentsUI \
     DownloadProviderUi \
-    Email \
     ExactCalculator \
     Exchange2 \
     ExternalStorageProvider \
@@ -57,6 +56,7 @@ PRODUCT_PACKAGES += \
     Telecom \
     TeleService \
     VpnDialogs \
+    OmniSwitch \
     MmsService
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_base.mk)
