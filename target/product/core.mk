@@ -30,7 +30,6 @@ PRODUCT_PACKAGES += \
     CertInstaller \
     Contacts \
     DeskClock \
-    DocumentsUI \
     DownloadProviderUi \
     ExactCalculator \
     Exchange2 \
