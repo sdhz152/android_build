@@ -31,6 +31,7 @@ PRODUCT_PACKAGES += \
     Contacts \
     DeskClock \
     DownloadProviderUi \
+    DocumentsUI \
     ExactCalculator \
     Exchange2 \
     ExternalStorageProvider \
