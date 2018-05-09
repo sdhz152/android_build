@@ -303,7 +303,7 @@ function setpaths()
         export CCACHE_DIR=$BASE_CCACHE_DIR/$product
         export CCACHE_BASEDIR=$ANDROID_BUILD_TOP
         if [ -z "$CCACHE_SIZE" ]; then
-            CCACHE_SIZE=16G
+            CCACHE_SIZE=50G
         fi
         if [ "$(uname)" = "Darwin" ] ; then
             prebuilts/misc/darwin-x86/ccache/ccache -M $CCACHE_SIZE
