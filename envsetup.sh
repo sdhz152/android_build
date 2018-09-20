@@ -325,6 +325,8 @@ function setpaths()
         fi
     fi
 
+    export SUDA_CPU_ABI=$(get_build_var TARGET_CPU_ABI)
+
     # needed for building linux on MacOS
     # TODO: fix the path
     #export HOST_EXTRACFLAGS="-I "$T/system/kernel_headers/host_include
