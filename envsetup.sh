@@ -305,12 +305,12 @@ function setpaths()
         if [ ! "$USE_LEGACY_CCACHE_DIR" ]; then
             export CCACHE_DIR=$(echo ${CCACHE_DIR%%/LineageOS_*})/$product
             if [ -z "$CCACHE_SIZE" ]; then
-                CCACHE_SIZE=16G
+                CCACHE_SIZE=50G
             fi
         else
             export CCACHE_DIR=$(echo ${CCACHE_DIR%%/LineageOS_*})/Arrow_default
             if [ -z "$CCACHE_SIZE" ]; then
-                CCACHE_SIZE=50G
+                CCACHE_SIZE=100G
             fi
         fi
         if [ ! -d "$CCACHE_DIR" ]; then
