@@ -167,6 +167,8 @@ PRODUCT_PACKAGES += \
     libsensorservice \
     libsfplugin_ccodec \
     libskia \
+    libsudautils \
+    libsuda-phoneloc-jni \
     libsonic \
     libsonivox \
     libsoundpool \
