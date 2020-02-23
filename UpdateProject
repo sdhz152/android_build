@@ -17,6 +17,7 @@
 #
 
 PROJECTPATH=(
+ $ANDROID_BUILD_TOP/android
  $ANDROID_BUILD_TOP/build/make
  $ANDROID_BUILD_TOP/frameworks/base
  $ANDROID_BUILD_TOP/packages/apps/Calendar
@@ -34,6 +35,7 @@ PROJECTPATH=(
 )
 
 PROJECTLIST=(
+ android.git
  android_build.git
  android_frameworks_base.git
  android_packages_apps_Calendar.git
